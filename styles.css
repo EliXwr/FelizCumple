@@ -1,4 +1,37 @@
-body{
+/*               Cumstom property            para definir tus variables css  */
 
-    background-color:rgb(11, 177, 177);
+
+/*              Reset Styles        resetear alguna etiqueta*/
+
+
+/*               Bootstrap styles        modificar elemetos de bootstrap*/
+
+
+/*          My style        clases o estilos que genero */
+body{
+    font-family: "Single Day", sans-serif;
 }
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .nav-item:hover {
+        background-color: transparent;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
