@@ -2,11 +2,6 @@ var colores = ["bg-color1", "bg-color2", "bg-color3", "bg-color4"]; // Array con
 var index = 0; // Índice actual del array
 let contador = 0;
 
-function slimShady(){
-  let butter = document.querySelectorAll("butters");
-  
-}
-
 const play = function() {
 
     var body = document.querySelector("body"); // Selecciona el body
@@ -14,12 +9,21 @@ const play = function() {
     var text = document.querySelector("h2");
     var text = document.querySelector("button");
 
-    if(contador === 4){
+    if(contador === 3){
       
       var sonido = new Audio("./assets/butters_song.mp3");
       sonido.play();
       contador = contador+ 1
-      setTimeout(28000,slimShady)
+      setTimeout(function() {
+        let butter = document.getElementById("kenny");
+        butter.style.visibility = 'visible';
+      }, 6000);
+      
+      setTimeout(function() {
+        let butter = document.getElementById("butters");
+        butter.style.visibility = 'visible';
+      }, 29600);
+      
       }else{
         contador += 1;
     }

@@ -5,18 +5,29 @@ body{
     color:#4B4B4B;
 }
 
-  .bg-color2 {
+.bg-color2 {
     background-color: #FFDB58;
     color:#634B34;
-  }
-  
-  .bg-color3 {
+}
+.bg-color3 {
     background-color:#2F657B;
     color:#D4D4D4;
-  }
-  .bg-color4{
+}
+.bg-color4{
     background-color:#1F2336;
     color:#FFFFFF;
-    
-  }
+}
+.imagen {
+    display: inline;
+    width: 32%;
+}
+.contenedor {
+    text-align: center;
+}
+.no-select{
+    user-select: none;
+}
 
+#kenny, #butters{
+    visibility: hidden;
+}
