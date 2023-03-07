@@ -9,7 +9,6 @@ body{
     background-color: #FFDB58;
     color:#634B34;
   }
-  
   .bg-color3 {
     background-color:#2F657B;
     color:#D4D4D4;
@@ -17,8 +16,12 @@ body{
   .bg-color4{
     background-color:#1F2336;
     color:#FFFFFF;
-    
   }
-
+  .imagen {
+    width: 50%;
+  }
+  .contenedor {
+    text-align: center;
+  }
 
   
