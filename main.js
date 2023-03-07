@@ -9,7 +9,7 @@ const play = function() {
     var text = document.querySelector("h2");
     var text = document.querySelector("button");
 
-    if(contador === 3){
+    if(contador === 2){
       
       var sonido = new Audio("./assets/butters_song.mp3");
       sonido.play();
